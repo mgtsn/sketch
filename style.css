@@ -47,19 +47,22 @@ body {
     flex-basis: 20%;
 }
 
+#newCanvas {
+    flex-basis: 30%;
+}
+
 #reset {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    flex-basis: 60%;
+    flex-basis: 30%;
 }
 
-.resetButton {
+.button {
     font-size: larger;
     align-self: center;
-    background-color: red;
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 10px;
 }
 
